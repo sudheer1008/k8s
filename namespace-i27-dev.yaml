@@ -1,14 +1,7 @@
-#pod.yaml
 apiVersion: v1
-kind: Pod
-metadata: 
-  name: my-pod2
-    labels: 
-      app: frontend
-spec:
-  containers:
-  - name: my-containers
-    image: nginx
+kind: Namespace
+metadata:
+  name: i27-dev
     
 
 
