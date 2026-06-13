@@ -1,9 +1,9 @@
-#pod.yaml
+# First Pod Example
 apiVersion: v1
 kind: Pod
-metadata:
+metadata: 
   name: my-pod
-  labels:
+  labels: 
     app: frontend
 spec:
   containers:

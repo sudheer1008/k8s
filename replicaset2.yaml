@@ -19,3 +19,4 @@ spec:
       containers:
         - image: nginx
           name: frontend-container
+          
