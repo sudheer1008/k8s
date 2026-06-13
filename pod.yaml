@@ -1,0 +1,12 @@
+#pod.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+  labels:
+    app: frontend
+spec:
+  containers:
+  - name: my-container
+    image: nginx
+    
